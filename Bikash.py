@@ -46,7 +46,7 @@ async def start_(client: Client, message: Message):
 ┣❥︎ ♕︎ᴏᴡɴᴇʀ♕︎  » [ᴄʟɪᴄᴋ✨ʜᴇʀᴇ](https://t.me/{OWNER_USERNAME})
 ┣❥︎ ᴄʜᴀɴɴᴇʟ ➪ » [ᴄʟɪᴄᴋ✨ʜᴇʀᴇ](https://t.me/{UPDATES_CHANNEL})
 ┣❥︎ ɢʀᴏᴜᴘ  ➪ » [ᴄʟɪᴄᴋ✨ʜᴇʀᴇ](https://t.me/{SUPPORT_GROUP})
-┣❥︎ ᴄʀᴇᴀᴛᴏʀ ➪ » [💫𝐕𝐄𝐍𝐎𝐌💀](https://t.me/its_arryan)
+┣❥︎ ᴄʀᴇᴀᴛᴏʀ ➪ » [𝚲꯭ᴛΔɴᴋɪ 𝚲꯭ ᴛ꯭꯭꯭꯭ ᴍ꯭꯭꯭꯭ ᧘](https://t.me/l_ATANKI_ATMA_ll)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ᴀᴅᴅ ᴍᴇ » ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ
@@ -64,7 +64,7 @@ async def start_(client: Client, message: Message):
     )
     
     
-@bot.on_message(filters.command(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#venom", "#aman"]) & filters.group & ~filters.edited)
+@bot.on_message(filters.command(["/start", f"start@{BOT_USERNAME}", "/alive", ".alive", "#venom", "#Atma"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{BOT_IMAGE}",
@@ -73,7 +73,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " 🍁ᴊᴏɪɴ ᴄʜᴀᴛ ɢʀᴏᴜᴘ💞", url=f"https://t.me/venom_World_chatting_club")
+                        " 🍁ᴊᴏɪɴ ᴄʜᴀᴛ ɢʀᴏᴜᴘ💞", url=f"https://t.me/+-2grMhOKoww5Nzg1")
                 ]
             ]
         ),
