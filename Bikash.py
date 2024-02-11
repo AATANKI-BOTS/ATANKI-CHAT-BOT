@@ -46,7 +46,7 @@ async def start_(client: Client, message: Message):
 ┣❥︎ ♕︎ᴏᴡɴᴇʀ♕︎  » [ᴄʟɪᴄᴋ✨ʜᴇʀᴇ](https://t.me/{OWNER_USERNAME})
 ┣❥︎ ᴄʜᴀɴɴᴇʟ ➪ » [ᴄʟɪᴄᴋ✨ʜᴇʀᴇ](https://t.me/{UPDATES_CHANNEL})
 ┣❥︎ ɢʀᴏᴜᴘ  ➪ » [ᴄʟɪᴄᴋ✨ʜᴇʀᴇ](https://t.me/{SUPPORT_GROUP})
-┣❥︎ ᴄʀᴇᴀᴛᴏʀ ➪ » [𝚲꯭ᴛΔɴᴋɪ 𝚲꯭ ᴛ꯭꯭꯭꯭ ᴍ꯭꯭꯭꯭ ᧘](https://t.me/l_ATANKI_ATMA_ll)
+┣❥︎ ᴄʀᴇᴀᴛᴏʀ ➪ » [𝚲꯭ᴛΔɴᴋɪ 𝚲꯭ ᴛ꯭꯭꯭꯭ ᴍ꯭꯭꯭꯭ ᧘](https://t.me/+eOndzGjht5FhNGY1)
 ┗━━━━━━━━━━━━━━━━━┛
 
 💞 ᴀᴅᴅ ᴍᴇ » ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ
@@ -73,7 +73,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        " 🍁ᴊᴏɪɴ ᴄʜᴀᴛ ɢʀᴏᴜᴘ💞", url=f"https://t.me/+-2grMhOKoww5Nzg1")
+                        " 🍁ᴊᴏɪɴ ᴄʜᴀᴛ ɢʀᴏᴜᴘ💞", url=f"https://t.me/+eOndzGjht5FhNGY1")
                 ]
             ]
         ),
@@ -99,9 +99,9 @@ async def chatbotofd(client, message):
     is_v = v.find_one({"chat_id": message.chat.id})
     if not is_v:
         v.insert_one({"chat_id": message.chat.id})
-        await message.reply_text(f"🥺 ᴏғғ ᴋᴀʀ ᴅɪʏᴀ ʜᴀʀᴍᴋʜᴏʀᴏ ɴᴇ 🥺!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/{UPDATES_CHANNEL}) 🥀")
+        await message.reply_text(f"🥺 ᴏғғ ᴋᴀʀ ᴅɪʏᴀ ʜᴀʀᴍᴋʜᴏʀᴏ ɴᴇ 🥺!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/+eOndzGjht5FhNGY1}) 🥀")
     if is_v:
-        await message.reply_text(f"😡ʙsᴅᴋ ᴀʟʀᴇᴀᴅʏ ᴏғғ ʜᴜ🥀!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/{UPDATES_CHANNEL}) 🍁")
+        await message.reply_text(f"😡ʙsᴅᴋ ᴀʟʀᴇᴀᴅʏ ᴏғғ ʜᴜ🥀!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/thecchub}) 🍁")
     
 
 @bot.on_message(
@@ -121,10 +121,10 @@ async def chatboton(client, message):
             )
     is_v = v.find_one({"chat_id": message.chat.id})
     if not is_v:           
-        await message.reply_text(f"💥 ᴏɴ ʜᴜ ᴀʟʀᴇᴀᴅʏ ʙsᴅᴋ🤬!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/{UPDATES_CHANNEL}) 🌷")
+        await message.reply_text(f"💥 ᴏɴ ʜᴜ ᴀʟʀᴇᴀᴅʏ ʙsᴅᴋ🤬!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/+eOndzGjht5FhNGY1}) 🌷")
     if is_v:
         v.delete_one({"chat_id": message.chat.id})
-        await message.reply_text(f"❣️ ʟɪʟʏ ᴄʜᴀᴛ-ʙᴏᴛ ɪs ᴏɴ🫠!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/{UPDATES_CHANNEL}) 🌷")
+        await message.reply_text(f"❣️ ʟɪʟʏ ᴄʜᴀᴛ-ʙᴏᴛ ɪs ᴏɴ🫠!\n\nᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛᴏ  [ʀᴇᴘᴏʀᴛ](https://t.me/{SUPPORT_GROUP})  🥀\n\n[ᴄʜᴀɴɴᴇʟ](https://t.me/thecchub}) 🌷")
     
 
 @bot.on_message(
